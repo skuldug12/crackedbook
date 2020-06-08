@@ -1,6 +1,3 @@
-echo "installing chromebrew for necessary dependencies..."
-curl -Ls https://raw.github.com/skycocker/chromebrew/master/install.sh | bash
-
 echo "Making ./tmpchbookdownloads"
 mkdir ./tmpchbookdownloads
 cd ./tmpchbookdownloads
