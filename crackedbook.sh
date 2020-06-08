@@ -166,12 +166,43 @@ ar x libhogweed4_3.4.1-1_amd64.deb
 tar -xvf data.tar.xz -C /
 rm -f *
 
+wget http://ftp.us.debian.org/debian/pool/main/libi/libidn2/libidn2-0_2.0.5-1+deb10u1_amd64.deb
+ar x libidn2-0_2.0.5-1+deb10u1_amd64.deb
 tar -xvf data.tar.xz -C /
 rm -f *
 
+wget http://ftp.us.debian.org/debian/pool/main/n/nettle/libnettle6_3.4.1-1_amd64.deb
+ar x libnettle6_3.4.1-1_amd64.deb
 tar -xvf data.tar.xz -C /
 rm -f *
 
+wget http://ftp.us.debian.org/debian/pool/main/p/p11-kit/libp11-kit0_0.23.15-2_amd64.deb
+ar x libp11-kit0_0.23.15-2_amd64.deb
+tar -xvf data.tar.xz -C /
+rm -f *
+
+wget http://ftp.us.debian.org/debian/pool/main/libf/libffi/libffi6_3.2.1-9_amd64.deb
+ar x libffi6_3.2.1-9_amd64.deb
+tar -xvf data.tar.xz -C /
+rm -f *
+
+wget http://ftp.us.debian.org/debian/pool/main/libt/libtasn1-6/libtasn1-6_4.13-3_amd64.deb
+ar x libtasn1-6_4.13-3_amd64.deb
+tar -xvf data.tar.xz -C /
+rm -f *
+
+wget http://ftp.us.debian.org/debian/pool/main/libu/libunistring/libunistring2_0.9.10-1_amd64.deb
+ar x libunistring2_0.9.10-1_amd64.deb
+tar -xvf data.tar.xz -C /
+rm -f *
+
+wget http://ftp.us.debian.org/debian/pool/main/libs/libseccomp/libseccomp2_2.3.3-4_amd64.deb
+ar x libseccomp2_2.3.3-4_amd64.deb
+tar -xvf data.tar.xz -C /
+rm -f *
+
+wget http://ftp.us.debian.org/debian/pool/main/g/gcc-8/libstdc++6_8.3.0-6_amd64.deb
+ar x libstdc++6_8.3.0-6_amd64.deb
 tar -xvf data.tar.xz -C /
 rm -f *
 
